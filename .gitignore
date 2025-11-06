@@ -35,3 +35,38 @@
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+# IDE and Editor files #
+########################
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+
+# Temporary files #
+###################
+tmp/
+temp/
+*.tmp
+.cache/
+
+# Node modules (if added in future) #
+######################################
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Build artifacts #
+###################
+dist/
+build/
+out/
+
+# Environment files #
+#####################
+.env
+.env.local
+.env.*.local

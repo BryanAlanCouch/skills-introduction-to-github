@@ -1,0 +1,13 @@
+{
+  "ignorePatterns": [
+    {
+      "pattern": "^https://github\\.com/orgs/community/discussions"
+    },
+    {
+      "pattern": "^https://www\\.contributor-covenant\\.org"
+    }
+  ],
+  "timeout": "20s",
+  "retryOn429": true,
+  "aliveStatusCodes": [200, 206, 301, 302, 307, 308, 403, 999]
+}
