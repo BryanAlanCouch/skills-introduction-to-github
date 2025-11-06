@@ -69,9 +69,27 @@ For more information on GitHub best practices, visit [GitHub Docs](https://docs.
 
 🟢 **Live and Active** - This project is actively maintained and optimized for public use.
 
+### 🚀 Deployment
+
+Ready to deploy your own version? Check out our comprehensive [Deployment Guide](DEPLOYMENT.md) for step-by-step instructions on:
+- Enabling GitHub Pages
+- Configuring custom domains
+- Monitoring deployments
+- Troubleshooting common issues
+
+### 📝 Documentation
+
+- 📖 [Deployment Guide](DEPLOYMENT.md) - Complete deployment instructions
+- 📋 [Changelog](CHANGELOG.md) - Version history and updates
+- 🛡️ [Security Policy](SECURITY.md) - Security guidelines and reporting
+- 🤝 [Contributing Guide](CONTRIBUTING.md) - How to contribute
+- 📜 [Code of Conduct](CODE_OF_CONDUCT.md) - Community guidelines
+
 ### 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/BryanAlanCouch/skills-introduction-to-github/issues).
+
+Please read our [Contributing Guide](CONTRIBUTING.md) before submitting a pull request.
 
 ### 📫 Connect & Support
 
