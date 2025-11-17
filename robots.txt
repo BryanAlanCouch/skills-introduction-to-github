@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://bryanalancouch.github.io/skills-introduction-to-github/sitemap.xml
