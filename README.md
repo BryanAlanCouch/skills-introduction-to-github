@@ -111,6 +111,6 @@ Built with ❤️ using GitHub's best practices and modern development workflows
 
 **[IdentAgent.me](https://github.com/BryanAlanCouch)** | Making Digital Identity Simple & Secure
 
-[![Follow on GitHub](https://img.shields.io/github/followers/BryanAlanCouch?label=Follow&style=social)](https://github.com/BryanAlanCouch)
+[![Follow on GitHub](https://img.shields.io/github/followers/BryanAlanCouch?label=Follow&style=social)](https://github.com/BryanAlanCouch) 
 
 </div>
