@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="IdentAgent.me - Your Omega Hub Dashboard">
+    <title>Dashboard - IdentAgent.me</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/common.css">
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center">
+                    <h1 class="text-2xl font-bold text-gradient">IdentAgent.me</h1>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <span id="userEmail" class="text-sm text-gray-600"></span>
+                    <button id="logoutBtn" class="btn btn-secondary text-sm">Logout</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <!-- Welcome Section -->
+        <div class="mb-8">
+            <h2 class="text-3xl font-bold mb-2">Welcome to Your Omega Hub! 👋</h2>
+            <p class="text-gray-600">Your central command center for creativity and innovation</p>
+        </div>
+
+        <!-- Quick Stats -->
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-6 mb-8">
+            <div class="card">
+                <div class="text-2xl mb-2">👥</div>
+                <h3 class="text-2xl font-bold">0</h3>
+                <p class="text-sm text-gray-600">Connections</p>
+            </div>
+            <div class="card">
+                <div class="text-2xl mb-2">🎨</div>
+                <h3 class="text-2xl font-bold">0</h3>
+                <p class="text-sm text-gray-600">Creations</p>
+            </div>
+            <div class="card">
+                <div class="text-2xl mb-2">⭐</div>
+                <h3 class="text-2xl font-bold">0</h3>
+                <p class="text-sm text-gray-600">Points</p>
+            </div>
+            <div class="card">
+                <div class="text-2xl mb-2">🏆</div>
+                <h3 class="text-2xl font-bold">0</h3>
+                <p class="text-sm text-gray-600">Achievements</p>
+            </div>
+        </div>
+
+        <!-- The 8 Pillars -->
+        <div class="mb-8">
+            <h3 class="text-2xl font-bold mb-4">Explore the 8 Pillars</h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Pillar 1: C-Tech & Development -->
+                <a href="c_tech_hub.html" class="card hover:shadow-xl transition-all">
+                    <div class="text-4xl mb-3">💻</div>
+                    <h4 class="text-xl font-bold mb-2">C-Tech Hub</h4>
+                    <p class="text-sm text-gray-600">AI-powered development tools and task management</p>
+                </a>
+
+                <!-- Pillar 2: The Marketplace -->
+                <a href="marketplace_hub.html" class="card hover:shadow-xl transition-all">
+                    <div class="text-4xl mb-3">🛒</div>
+                    <h4 class="text-xl font-bold mb-2">Marketplace</h4>
+                    <p class="text-sm text-gray-600">Create campaigns and monetize your content</p>
+                </a>
+
+                <!-- Pillar 3: Community & Social -->
+                <a href="community_hub.html" class="card hover:shadow-xl transition-all">
+                    <div class="text-4xl mb-3">👥</div>
+                    <h4 class="text-xl font-bold mb-2">Community</h4>
+                    <p class="text-sm text-gray-600">Connect with creators and join groups</p>
+                </a>
+
+                <!-- Pillar 4: OmniCreations Station -->
+                <a href="omnicreations_hub.html" class="card hover:shadow-xl transition-all">
+                    <div class="text-4xl mb-3">🎨</div>
+                    <h4 class="text-xl font-bold mb-2">Creations</h4>
+                    <p class="text-sm text-gray-600">Art, music, video, and game development</p>
+                </a>
+
+                <!-- Pillar 5: Education & Growth -->
+                <a href="education_hub.html" class="card hover:shadow-xl transition-all">
+                    <div class="text-4xl mb-3">📚</div>
+                    <h4 class="text-xl font-bold mb-2">Education</h4>
+                    <p class="text-sm text-gray-600">Learn new skills and earn certificates</p>
+                </a>
+
+                <!-- Pillar 6: Rewards & Monetization -->
+                <a href="rewards_hub.html" class="card hover:shadow-xl transition-all">
+                    <div class="text-4xl mb-3">💰</div>
+                    <h4 class="text-xl font-bold mb-2">Rewards</h4>
+                    <p class="text-sm text-gray-600">Wallet, freelancing, and monetization</p>
+                </a>
+
+                <!-- Pillar 7: Health & Wellness -->
+                <a href="wellness_hub.html" class="card hover:shadow-xl transition-all">
+                    <div class="text-4xl mb-3">🧘</div>
+                    <h4 class="text-xl font-bold mb-2">Wellness</h4>
+                    <p class="text-sm text-gray-600">Mind, body, and soul practices</p>
+                </a>
+
+                <!-- Pillar 8: Security & Support -->
+                <a href="security_shield.html" class="card hover:shadow-xl transition-all">
+                    <div class="text-4xl mb-3">🛡️</div>
+                    <h4 class="text-xl font-bold mb-2">Security</h4>
+                    <p class="text-sm text-gray-600">IP protection and blockchain ledger</p>
+                </a>
+            </div>
+        </div>
+
+        <!-- Quick Actions -->
+        <div class="mb-8">
+            <h3 class="text-2xl font-bold mb-4">Quick Actions</h3>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <a href="edit_profile.html" class="btn btn-secondary text-center">
+                    Edit Profile
+                </a>
+                <a href="profile_designer.html" class="btn btn-secondary text-center">
+                    Customize Profile
+                </a>
+                <a href="user_profile_view.html" class="btn btn-secondary text-center">
+                    View Public Profile
+                </a>
+                <a href="support_hub.html" class="btn btn-secondary text-center">
+                    Get Help
+                </a>
+            </div>
+        </div>
+
+        <!-- Recent Activity -->
+        <div class="card">
+            <h3 class="text-xl font-bold mb-4">Recent Activity</h3>
+            <div class="text-center py-12 text-gray-400">
+                <div class="text-4xl mb-2">📭</div>
+                <p>No activity yet. Start exploring!</p>
+            </div>
+        </div>
+    </div>
+
+    <script type="module">
+        import authService from './js/auth.js';
+        import { showToast } from './js/utils.js';
+
+        // Initialize
+        authService.requireAuth();
+        
+        const userEmail = authService.getCurrentUserEmail();
+        if (userEmail) {
+            document.getElementById('userEmail').textContent = userEmail;
+        }
+
+        // Logout
+        document.getElementById('logoutBtn').addEventListener('click', async () => {
+            const result = await authService.signOut();
+            if (result.success) {
+                showToast('Logged out successfully', 'success');
+                setTimeout(() => {
+                    window.location.href = 'index.html';
+                }, 1000);
+            }
+        });
+    </script>
+</body>
+</html>

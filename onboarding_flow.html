@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to IdentAgent.me - Complete your onboarding">
+    <title>Onboarding - IdentAgent.me</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/common.css">
+</head>
+<body class="bg-gradient-to-br from-blue-600 to-purple-700 min-h-screen flex items-center justify-center p-4">
+    <div class="max-w-3xl w-full">
+        <div class="card fade-in">
+            <div class="text-center mb-8">
+                <h1 class="text-3xl font-bold text-gradient mb-2">Welcome to IdentAgent.me! 🎉</h1>
+                <p class="text-gray-600">Let's set up your Omega Hub in just a few steps</p>
+            </div>
+
+            <!-- Progress Bar -->
+            <div class="mb-8">
+                <div class="flex justify-between mb-2">
+                    <span class="text-sm font-medium text-gray-700">Step <span id="currentStep">1</span> of 4</span>
+                    <span class="text-sm font-medium text-gray-700"><span id="progress">25</span>%</span>
+                </div>
+                <div class="w-full bg-gray-200 rounded-full h-2">
+                    <div id="progressBar" class="gradient-primary h-2 rounded-full transition-all duration-300" style="width: 25%"></div>
+                </div>
+            </div>
+
+            <!-- Step 1: Profile Setup -->
+            <div id="step1" class="step-content">
+                <h2 class="text-2xl font-bold mb-4">Tell us about yourself</h2>
+                <div class="space-y-4">
+                    <div>
+                        <label for="username" class="block text-sm font-medium text-gray-700 mb-1">Username</label>
+                        <input type="text" id="username" class="form-input" placeholder="@yourusername">
+                    </div>
+                    <div>
+                        <label for="bio" class="block text-sm font-medium text-gray-700 mb-1">Bio</label>
+                        <textarea id="bio" rows="3" class="form-input" placeholder="Tell us about yourself..."></textarea>
+                    </div>
+                    <div>
+                        <label for="avatar" class="block text-sm font-medium text-gray-700 mb-1">Profile Picture</label>
+                        <input type="file" id="avatar" accept="image/*" class="form-input">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Step 2: Interests -->
+            <div id="step2" class="step-content hidden">
+                <h2 class="text-2xl font-bold mb-4">What are your interests?</h2>
+                <p class="text-gray-600 mb-4">Select at least 3 areas you're passionate about</p>
+                <div class="grid grid-cols-2 md:grid-cols-3 gap-3">
+                    <button type="button" class="interest-btn btn btn-secondary text-sm py-3">🎨 Art & Design</button>
+                    <button type="button" class="interest-btn btn btn-secondary text-sm py-3">🎵 Music</button>
+                    <button type="button" class="interest-btn btn btn-secondary text-sm py-3">🎮 Gaming</button>
+                    <button type="button" class="interest-btn btn btn-secondary text-sm py-3">💻 Development</button>
+                    <button type="button" class="interest-btn btn btn-secondary text-sm py-3">📚 Education</button>
+                    <button type="button" class="interest-btn btn btn-secondary text-sm py-3">🏋️ Fitness</button>
+                    <button type="button" class="interest-btn btn btn-secondary text-sm py-3">🧘 Wellness</button>
+                    <button type="button" class="interest-btn btn btn-secondary text-sm py-3">💼 Business</button>
+                    <button type="button" class="interest-btn btn btn-secondary text-sm py-3">🎬 Video</button>
+                </div>
+            </div>
+
+            <!-- Step 3: Pillars -->
+            <div id="step3" class="step-content hidden">
+                <h2 class="text-2xl font-bold mb-4">Explore the 8 Pillars</h2>
+                <p class="text-gray-600 mb-6">Discover all that IdentAgent.me has to offer</p>
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                    <div class="text-center p-4 bg-gradient-to-br from-purple-100 to-purple-200 rounded-lg">
+                        <div class="text-4xl mb-2">💻</div>
+                        <h3 class="font-semibold text-sm">C-Tech Hub</h3>
+                    </div>
+                    <div class="text-center p-4 bg-gradient-to-br from-blue-100 to-blue-200 rounded-lg">
+                        <div class="text-4xl mb-2">🛒</div>
+                        <h3 class="font-semibold text-sm">Marketplace</h3>
+                    </div>
+                    <div class="text-center p-4 bg-gradient-to-br from-green-100 to-green-200 rounded-lg">
+                        <div class="text-4xl mb-2">👥</div>
+                        <h3 class="font-semibold text-sm">Community</h3>
+                    </div>
+                    <div class="text-center p-4 bg-gradient-to-br from-pink-100 to-pink-200 rounded-lg">
+                        <div class="text-4xl mb-2">🎨</div>
+                        <h3 class="font-semibold text-sm">Creations</h3>
+                    </div>
+                    <div class="text-center p-4 bg-gradient-to-br from-yellow-100 to-yellow-200 rounded-lg">
+                        <div class="text-4xl mb-2">📚</div>
+                        <h3 class="font-semibold text-sm">Education</h3>
+                    </div>
+                    <div class="text-center p-4 bg-gradient-to-br from-indigo-100 to-indigo-200 rounded-lg">
+                        <div class="text-4xl mb-2">💰</div>
+                        <h3 class="font-semibold text-sm">Rewards</h3>
+                    </div>
+                    <div class="text-center p-4 bg-gradient-to-br from-teal-100 to-teal-200 rounded-lg">
+                        <div class="text-4xl mb-2">🧘</div>
+                        <h3 class="font-semibold text-sm">Wellness</h3>
+                    </div>
+                    <div class="text-center p-4 bg-gradient-to-br from-red-100 to-red-200 rounded-lg">
+                        <div class="text-4xl mb-2">🛡️</div>
+                        <h3 class="font-semibold text-sm">Security</h3>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Step 4: Complete -->
+            <div id="step4" class="step-content hidden">
+                <div class="text-center">
+                    <div class="text-6xl mb-4">🚀</div>
+                    <h2 class="text-3xl font-bold mb-4">You're All Set!</h2>
+                    <p class="text-gray-600 mb-6">Your Omega Hub is ready. Let's start your journey!</p>
+                    <div class="bg-purple-50 p-6 rounded-lg mb-6">
+                        <h3 class="font-semibold text-lg mb-2">Quick Tips</h3>
+                        <ul class="text-left text-sm space-y-2 text-gray-700">
+                            <li>✓ Complete your profile to unlock all features</li>
+                            <li>✓ Join communities to connect with like-minded creators</li>
+                            <li>✓ Start creating and sharing your work</li>
+                            <li>✓ Explore the marketplace for opportunities</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Navigation Buttons -->
+            <div class="flex justify-between mt-8 pt-6 border-t border-gray-200">
+                <button id="prevBtn" class="btn btn-secondary hidden">Previous</button>
+                <div class="flex-1"></div>
+                <button id="nextBtn" class="btn btn-primary">Next</button>
+            </div>
+        </div>
+    </div>
+
+    <script type="module">
+        import { showToast } from './js/utils.js';
+
+        let currentStep = 1;
+        const totalSteps = 4;
+        let selectedInterests = new Set();
+
+        function updateProgress() {
+            document.getElementById('currentStep').textContent = currentStep;
+            const progress = (currentStep / totalSteps) * 100;
+            document.getElementById('progress').textContent = progress;
+            document.getElementById('progressBar').style.width = progress + '%';
+            
+            // Show/hide steps
+            for (let i = 1; i <= totalSteps; i++) {
+                const step = document.getElementById('step' + i);
+                if (step) {
+                    step.classList.toggle('hidden', i !== currentStep);
+                }
+            }
+            
+            // Update buttons
+            document.getElementById('prevBtn').classList.toggle('hidden', currentStep === 1);
+            document.getElementById('nextBtn').textContent = currentStep === totalSteps ? 'Get Started' : 'Next';
+        }
+
+        document.getElementById('nextBtn').addEventListener('click', () => {
+            if (currentStep === 2 && selectedInterests.size < 3) {
+                showToast('Please select at least 3 interests', 'warning');
+                return;
+            }
+            
+            if (currentStep < totalSteps) {
+                currentStep++;
+                updateProgress();
+            } else {
+                // Complete onboarding
+                showToast('Welcome to IdentAgent.me!', 'success');
+                setTimeout(() => {
+                    window.location.href = 'user_dashboard.html';
+                }, 1500);
+            }
+        });
+
+        document.getElementById('prevBtn').addEventListener('click', () => {
+            if (currentStep > 1) {
+                currentStep--;
+                updateProgress();
+            }
+        });
+
+        // Interest selection
+        document.querySelectorAll('.interest-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                const interest = btn.textContent.trim();
+                if (selectedInterests.has(interest)) {
+                    selectedInterests.delete(interest);
+                    btn.classList.remove('bg-purple-600', 'text-white');
+                    btn.classList.add('btn-secondary');
+                } else {
+                    selectedInterests.add(interest);
+                    btn.classList.add('bg-purple-600', 'text-white');
+                    btn.classList.remove('btn-secondary');
+                }
+            });
+        });
+
+        updateProgress();
+    </script>
+</body>
+</html>
