@@ -5,6 +5,34 @@ All notable changes to the IdentAgent.me project will be documented in this file
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.1.0] - 2024-11-19
+
+### Added - Collaboration Features 🤝
+
+#### Documentation
+- **COLLABORATION.md**: Comprehensive guide for GitHub collaboration
+  - Step-by-step IdentAgent-Core repository setup
+  - Team collaboration best practices
+  - Branch strategies and pull request workflows
+  - Security considerations for collaborative development
+  - Troubleshooting common collaboration issues
+
+#### Learning Resources
+- **Step 5: GitHub Collaboration**: New tutorial step in `.github/steps/`
+  - Repository creation and initialization guide
+  - Git command reference for team setup
+  - Collaborator invitation process
+  - Tips for successful team collaboration
+
+#### GitHub Actions
+- **5-github-collaboration.yml**: Workflow for advanced collaboration step
+  - Automated progression from finish step to collaboration tutorial
+  - Integration with existing skills progression system
+
+#### Updates
+- **README.md**: Added reference to collaboration guide and updated learning resources
+- Updated documentation section to include new collaboration guide
+
 ## [1.0.0] - 2024-11-05
 
 ### Added - Initial Release 🎉
