@@ -8,6 +8,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ### Added
+
 - **DEVELOPMENT.md**: Comprehensive development setup guide
   - Prerequisites and environment setup
   - GitHub Copilot configuration instructions
@@ -17,7 +18,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Testing and debugging guidelines
   - Project structure overview
 
-### Changed
+### Updated
+
 - **README.md**: Added link to Development Guide in Documentation section
 
 ## [1.0.0] - 2024-11-05
@@ -25,6 +27,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added - Initial Release 🎉
 
 #### Documentation
+
 - **README.md**: Professional, SEO-optimized README with IdentAgent.me branding
   - Feature showcase with icons and descriptions
   - Technology stack overview

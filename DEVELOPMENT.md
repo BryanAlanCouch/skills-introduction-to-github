@@ -36,13 +36,14 @@ If you have GitHub Copilot enabled, you can configure the agent sessions view lo
 
 To configure the GitHub Copilot agent sessions view:
 
-```
+```text
 vscode://settings/chat.agentSessionsViewLocation
 ```
 
 Copy and paste this URI in your browser or VS Code to access the setting directly.
 
 Alternatively, you can configure it manually in VS Code:
+
 1. Open VS Code Settings (Ctrl+, or Cmd+,)
 2. Search for "chat.agentSessionsViewLocation"
 3. Choose your preferred location for the agent sessions view
@@ -52,6 +53,7 @@ Alternatively, you can configure it manually in VS Code:
 ### Making Changes
 
 1. Create a new branch for your feature:
+
    ```bash
    git checkout -b feature/your-feature-name
    ```
@@ -61,12 +63,14 @@ Alternatively, you can configure it manually in VS Code:
 3. Test your changes by opening `index.html` in a web browser
 
 4. Commit your changes:
+
    ```bash
    git add .
    git commit -m "Description of your changes"
    ```
 
 5. Push your branch:
+
    ```bash
    git push origin feature/your-feature-name
    ```
@@ -103,7 +107,7 @@ markdown-link-check README.md
 
 ## Project Structure
 
-```
+```text
 .
 ├── .github/              # GitHub configuration and workflows
 │   ├── workflows/        # GitHub Actions workflows
@@ -117,7 +121,6 @@ markdown-link-check README.md
 ├── DEPLOYMENT.md        # Deployment instructions
 ├── DEVELOPMENT.md       # This file
 └── LICENSE              # MIT License
-
 ```
 
 ## Common Tasks
@@ -153,14 +156,17 @@ The landing page includes Three.js for 3D visualizations. When working with this
 ### Common Issues
 
 **Issue**: Changes not reflecting in browser
+
 - **Solution**: Hard refresh the page (Ctrl+Shift+R or Cmd+Shift+R)
 - **Solution**: Clear browser cache
 
 **Issue**: Markdown linting errors
+
 - **Solution**: Check `.markdownlint.json` for rules
 - **Solution**: Use a markdown linter in your editor
 
 **Issue**: GitHub Actions failing
+
 - **Solution**: Check the Actions tab for detailed logs
 - **Solution**: Ensure you're following the code style guidelines
 
