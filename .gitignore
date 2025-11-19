@@ -68,5 +68,5 @@ out/
 # Environment files #
 #####################
 .env
-.env.local
+.env.localfixwd
 .env.*.local
