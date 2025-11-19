@@ -90,3 +90,36 @@ IdentAgent.me is a professional digital identity platform and portfolio showcase
 - Keep the learning resource aspect clear and accessible
 - Update CHANGELOG.md for significant changes
 - Preserve the balance between being a template and a learning tool
+
+## Task Scoping and Assignment
+
+When working on tasks in this repository:
+
+- **Appropriate Tasks**: Bug fixes, documentation updates, test coverage improvements, and incremental features
+- **Task Clarity**: Issues should have clear descriptions, acceptance criteria, and guidance on affected files
+- **Scope**: Keep tasks small to medium-sized; break down complex work into manageable chunks
+- **Context**: Always review existing code patterns before implementing changes
+
+## Environment and Setup
+
+- This is a static HTML site with no build process required
+- Test changes by opening HTML files directly in a browser
+- Use GitHub Pages for deployment previews
+- Markdown linting is available via `markdownlint-cli` (optional)
+- Link checking available via `markdown-link-check` (optional)
+
+## Iteration and Feedback
+
+- Review pull requests thoroughly before merging
+- Request changes using GitHub PR review features
+- Iterate on feedback by updating the same PR
+- Keep communication clear and constructive
+- Document decisions in PR comments or commit messages
+
+## Security and Privacy
+
+- Repository uses Dependabot for automated dependency updates
+- No sensitive data should be committed
+- All changes require human review before merging
+- Follow the security policy outlined in SECURITY.md
+- Report security issues privately as per SECURITY.md guidelines
