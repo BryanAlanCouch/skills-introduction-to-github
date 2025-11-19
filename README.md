@@ -2,7 +2,7 @@
 firebase-config.js
 <div align="center">
 
-[![GitHub followers](https://img.shields.io/github/followers/BryanAlanCouch?style=social)](https://github.com/BryanAlanCouch)
+[![GitHubgo live  followers](https://img.shields.io/github/followers/BryanAlanCouch?style=social)](https://github.com/BryanAlanCouch)
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![GitHub Stars](https://img.shields.io/github/stars/BryanAlanCouch/skills-introduction-to-github?style=social)](https://github.com/BryanAlanCouch/skills-introduction-to-github)
 
