@@ -79,6 +79,7 @@ Ready to deploy your own version? Check out our comprehensive [Deployment Guide]
 
 ### 📝 Documentation
 
+- 🛠️ [Development Guide](DEVELOPMENT.md) - Setup and development instructions
 - 📖 [Deployment Guide](DEPLOYMENT.md) - Complete deployment instructions
 - 📋 [Changelog](CHANGELOG.md) - Version history and updates
 - 🛡️ [Security Policy](SECURITY.md) - Security guidelines and reporting
