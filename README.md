@@ -62,6 +62,7 @@ This project was built following GitHub's best practices and includes examples o
 - Opening and managing pull requests
 - Merging code safely
 - Profile README creation
+- Setting up collaborative repositories
 
 For more information on GitHub best practices, visit [GitHub Docs](https://docs.github.com).
 
@@ -80,6 +81,7 @@ Ready to deploy your own version? Check out our comprehensive [Deployment Guide]
 ### 📝 Documentation
 
 - 📖 [Deployment Guide](DEPLOYMENT.md) - Complete deployment instructions
+- 🤝 [Collaboration Guide](COLLABORATION.md) - Team collaboration setup and best practices
 - 📋 [Changelog](CHANGELOG.md) - Version history and updates
 - 🛡️ [Security Policy](SECURITY.md) - Security guidelines and reporting
 - 🤝 [Contributing Guide](CONTRIBUTING.md) - How to contribute
