@@ -38,6 +38,34 @@ Once deployed, your site will be available at:
 https://bryanalancouch.github.io/skills-introduction-to-github/
 ```
 
+## Automated Deployment Script
+
+For convenience, this repository includes a deployment automation script (`deploy.sh`) that automates the git workflow.
+
+### Using the Deployment Script
+
+```bash
+# Make the script executable (first time only)
+chmod +x deploy.sh
+
+# Run the deployment script
+./deploy.sh
+```
+
+The script will:
+1. Check if git is initialized (initializes if needed)
+2. Stage all changes with `git add .`
+3. Commit changes with a default message
+4. Push to the main branch
+
+**Important Notes:**
+- Ensure you have set up your remote origin before first use:
+  ```bash
+  git remote add origin https://github.com/YOUR_USERNAME/YOUR_REPO.git
+  ```
+- Customize the commit message in the script if desired
+- This script is designed for quick deployments; review changes before running
+
 ## Configuration
 
 ### Custom Domain (Optional)
